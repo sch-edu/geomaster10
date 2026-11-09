@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>GeoQuest: India Mastery — Class 10 Geography 100/100</title>
+<meta name="description" content="The addictive game universe that covers every sentence of NCERT Contemporary India II — 18 game formats, 7 chapters, full CBSE map work." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌏</text></svg>" />
+</head>
+<body>
+<div id="fx-layer" aria-hidden="true"></div>
+
+<header class="topbar">
+  <button class="brand" data-nav="home">
+    <span class="brand-globe">🌏</span>
+    <span class="brand-text">
+      <strong>GeoQuest</strong>
+      <em>India Mastery</em>
+    </span>
+  </button>
+
+  <div class="hud" id="hud">
+    <div class="hud-chip" id="hud-streak" title="Daily streak"><span class="ic">🔥</span><b>0</b></div>
+    <div class="hud-chip" id="hud-xp" title="Total XP"><span class="ic">⚡</span><b>0</b></div>
+    <div class="hud-chip" id="hud-rank" title="Your rank"><span class="ic">🎖️</span><b>Soil Beginner</b></div>
+    <div class="hud-chip ghost" id="hud-coverage" title="Book covered"><span class="ic">📖</span><b>0%</b></div>
+  </div>
+
+  <div class="topbar-actions">
+    <button class="icon-btn" data-nav="profile" title="Profile & badges">👤</button>
+    <button class="icon-btn" data-nav="radar" title="Weak-area radar">🎯</button>
+    <button class="icon-btn" id="btn-sound" title="Sound on/off">🔊</button>
+  </div>
+</header>
+
+<main id="app" tabindex="-1"><!-- screens render here --></main>
+
+<nav class="tabbar" id="tabbar">
+  <button data-nav="home" class="tab active"><span>🏠</span>HQ</button>
+  <button data-nav="chapters" class="tab"><span>📚</span>Chapters</button>
+  <button data-nav="maparena" class="tab"><span>🗺️</span>Map Arena</button>
+  <button data-nav="daily" class="tab"><span>🎁</span>Daily</button>
+  <button data-nav="exam" class="tab"><span>☠️</span>God Exam</button>
+</nav>
+
+<div class="toast-wrap" id="toasts"></div>
+<div class="modal-wrap" id="modal" hidden><div class="modal" id="modal-body"></div></div>
+
+<script type="module" src="assets/js/app.js"></script>
+<noscript>GeoQuest needs JavaScript. Enable it and reload — your 100/100 is waiting.</noscript>
+</body>
+</html>
